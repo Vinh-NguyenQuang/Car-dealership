@@ -30,12 +30,15 @@ Welcome to the frontend codebase for **The Lux Cars** — a premier dealership s
 
 ---
 
+
 ## 📁 Project Structure
+
+```bash
 src/
-├── components/      # Reusable UI components
-├── pages/           # Page-level components (e.g., Inventory, Customers)
-├── services/        # Axios API calls
-├── hooks/           # Custom React hooks
-├── utils/           # Validation schemas, helpers
-├── App.tsx          # Main app configuration with routing
-└── index.tsx        # React DOM entry point
+├── components/      # Reusable UI components (e.g., buttons, cards, forms)
+├── pages/           # Page-level components (e.g., Inventory, Customers, Sales)
+├── services/        # Axios functions for API communication
+├── hooks/           # Custom React hooks for shared logic
+├── utils/           # Helper functions and Yup validation schemas
+├── App.tsx          # Main application with routing configuration
+└── index.tsx        # ReactDOM entry point
